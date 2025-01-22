@@ -11,13 +11,13 @@
   {% if page and page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
 
   {% if config.site_favicon %}<link rel="shortcut icon" href="{{ config.site_favicon | url }}">
-  {% else %}<link rel="shortcut icon" href="{{ '_assets/img/favicon.ico' | absolute_url  }}">{% endif %}
+  {% else %}<link rel="shortcut icon" href="{{ 'assets/img/favicon.ico' | absolute_url  }}">{% endif %}
 
   <title>{% if page and page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
-  <link rel="stylesheet" href="{{ '_assets/css/theme.css' | absolute_url }}" />
-  <link rel="stylesheet" href="{{ '_assets/css/theme_extra.css' | absolute_url }}" />
+  <link rel="stylesheet" href="{{ 'assets/css/theme.css' | absolute_url }}" />
+  <link rel="stylesheet" href="{{ 'assets/css/theme_extra.css' | absolute_url }}" />
   {%- if site.hljs_style %}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{site.hljs_style}}.min.css" />
   {%- else %}
@@ -77,10 +77,10 @@
   {% include versions.html %}
 
   <script>var base_url = '{{ baseurl }}';</script>
-  <script src="{{ '_assets/js/jquery-2.1.1.min.js' | absolute_url }}" defer></script>
-  <script src="{{ '_assets/js/modernizr-2.8.3.min.js' | absolute_url }}" defer></script>
+  <script src="{{ 'assets/js/jquery-2.1.1.min.js' | absolute_url }}" defer></script>
+  <script src="{{ 'assets/js/modernizr-2.8.3.min.js' | absolute_url }}" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script src="{{ '_assets/js/theme.js' | absolute_url }}" defer></script>
+  <script src="{{ 'assets/js/theme.js' | absolute_url }}" defer></script>
   <script type="text/javascript" defer>
     hljs.initHighlightingOnLoad();
     window.addEventListener('load', function() {
