@@ -13,7 +13,7 @@ nav_order: 1
 <body>
   <video
     id="my-video"
-    class="video-js vjs-default-skin vjs-16-9"
+    class="video-js vjs-default-skin vjs-16-9 vjs-time-control"
     controls
     preload="auto"
     data-setup="{}"
