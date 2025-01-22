@@ -33,4 +33,6 @@ nav_order: 1
 
 <br>
 
-Upin dan Ipin
+Upin and Ipin, who have reached the age of 5, are beginning to recognize the meaning of fasting and want to know the purpose and benefits of fasting like other Muslim children their age. Opah and Kak Ros explained the meaning and purpose of fasting to them. So, this is the first time the twins are fasting. 
+
+While playing marbles with Mei Mei and Rajoo on the last night before Ramadhan begins, Upin and Ipin are called home by Kak Ros for a night out. The TV kept announcing the start date of Ramadhan. Therefore, Upin and Ipin were obliged by Opah to fast for a month.
