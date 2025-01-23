@@ -8,12 +8,20 @@ nav_order: 1
 
 <head>
   <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
+  <style>
+    .video-js .vjs-time-control {
+      display: block;
+    }
+  .video-js .vjs-remaining-time {
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
   <video
     id="my-video"
-    class="video-js vjs-default-skin vjs-16-9"
+    class="video-js vjs-default-skin vjs-16-9 vjs-time-control"
     controls
     preload="auto"
     data-setup="{}"
