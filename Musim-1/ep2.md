@@ -4,7 +4,7 @@ title: M1E2 - Dugaan
 nav_order: 1
 ---
 
-# M1E1 - Esok Puasa
+# M1E2 - Dugaan
 
 <head>
   <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
