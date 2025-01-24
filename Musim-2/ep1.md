@@ -1,10 +1,10 @@
 ---
 layout: default
-title: M2E7 - Kisah & Tauladan
+title: M2E12 - Kisah & Tauladan
 nav_order: 1
 ---
 
-# M2E7 - Kisah & Tauladan
+# M2E12 - Kisah & Tauladan
 
 <head>
   <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
@@ -26,7 +26,7 @@ nav_order: 1
     preload="auto"
     data-setup="{}"
   >
-    <source src="https://github.com/upin-ipin-archives/videos/raw/refs/heads/main/M2/M2E7.webm" type="video/webm" />
+    <source src="https://github.com/upin-ipin-archives/videos/raw/refs/heads/main/M2/M2E12.webm" type="video/webm" />
     <p class="vjs-no-js">
       To view this video please enable JavaScript, and consider upgrading to a
       web browser that
